@@ -1,0 +1,20 @@
+{
+  "name": "pacman_game",
+  "version": "1.0.0",
+  "description": "simple pacman game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 3000\" \"open http://localhost:3000/index.html\""
+  },
+  "keywords": [
+    "pc"
+  ],
+  "author": "amit",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "http-server": "^0.12.3"
+  }
+}
